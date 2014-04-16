@@ -46,7 +46,6 @@ var Player = new Class({
 		if (click == 1) {
 			this.playPause();
 		}	else if (localStorage['playing'] === 'true') {
-			console.log('playing is true');
 			this.playPause();
 		}
 	},
